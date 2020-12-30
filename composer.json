@@ -1,5 +1,5 @@
 {
-    "name": "hyperf-ext/mail",
+    "name": "ezijing/mailer",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -10,12 +10,16 @@
     "description": "The Hyperf Mail package.",
     "authors": [
         {
-            "name": "Eric Zhu",
+            "name": "Ewang",
             "email": "eric@zhu.email"
         },
         {
             "name": "Taylor Otwell",
             "email": "taylor@laravel.com"
+        },
+        {
+            "name": "wangyizheng",
+            "email": "dashen@66.com"
         }
     ],
     "autoload": {
@@ -32,17 +36,17 @@
         "php": ">=7.3",
         "ext-json": "*",
         "ext-swoole": ">=4.5",
-        "hyperf-ext/contract": "~2.1.0",
-        "hyperf/async-queue": "~2.1.0",
-        "hyperf/command": "~2.1.0",
-        "hyperf/config": "~2.1.0",
-        "hyperf/devtool": "~2.1.0",
-        "hyperf/di": "~2.1.0",
-        "hyperf/event": "~2.1.0",
-        "hyperf/filesystem": "~2.1.0",
-        "hyperf/framework": "~2.1.0",
-        "hyperf/translation": "~2.1.0",
-        "hyperf/view": "~2.1.0",
+        "hyperf-ext/contract": "~2.0.0",
+        "hyperf/async-queue": "~2.0.0",
+        "hyperf/command": "~2.0.0",
+        "hyperf/config": "~2.0.0",
+        "hyperf/devtool": "~2.0.0",
+        "hyperf/di": "~2.0.0",
+        "hyperf/event": "~2.0.0",
+        "hyperf/filesystem": "~2.0.0",
+        "hyperf/framework": "~2.0.0",
+        "hyperf/translation": "~2.0.0",
+        "hyperf/view": "~2.0.0",
         "swiftmailer/swiftmailer": "^6.0"
     },
     "require-dev": {
